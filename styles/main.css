@@ -1,0 +1,390 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/********* Navbar *********/
+.navbar-brand{
+    margin-left: 100px;
+}
+.navbarAdobe {
+    background-color: #DB4114;
+    box-shadow: 5px 5px 15px #000000 ;
+}
+.adobeIcono {
+    width: 80px;
+    /* background-color: red; */
+    border-radius: 19px;
+}
+.menuRight{ 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.iconosNabar_MenuRigh {
+    width: 50px;
+}
+.itemListNav {
+    text-align: center;
+    padding:  0 20px 0 20px;
+    font-size: 18px;
+}
+.itemListNav > a {
+    padding: 0 ; 
+}
+.nav-item {
+    display: flex;
+    align-items: flex-end;
+}
+
+/********* Container headBlack *********/
+.head {
+    height: 300px;
+} 
+
+/********* Container headBlack *********/
+#image_fondoTop {
+    background-image: url("../assets/adobeFondoTop.jpg  ");
+    background-repeat: no-repeat;
+    filter: blur(3px);  
+    transition: 1s ease;
+    width:100%;
+    height:250px;
+    position:absolute;
+    z-index:0;
+}
+
+/********* Container headBlack *********/
+.containerBlack {
+    background-color: #000000;
+    opacity: 0.6;
+    height: 150px;
+    position:absolute;
+    z-index:1;
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.containerFront{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.containerConocenos{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+.containerConoc{
+    width: 25%;
+    height: 55px;
+    background-color: #1F1F1F;
+    opacity: .4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.text-adobe {
+    color: #ffffff;
+    margin: 0 0 15px 5%;
+    letter-spacing: 1.5px;
+}
+
+.btnConocenos {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #000000;
+    border-radius: 10px;
+    margin: 0 5% 10px 0;
+}
+.btnConocenos:hover {
+    background-color: #1f1f1f;
+}
+.btnConocenos > a{
+    margin: 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    z-index: 0;
+    color: #000000;
+}
+
+/********* Container headBlack *********/
+
+.separador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estiloHr{
+    width: 35%;
+    height: 1px;
+    border: 1px dashed #000000;
+    display: flex;
+}
+.titleSeparador{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+/********* Combo *********/
+.promoInicio {
+    justify-content: center;
+}
+.comboMain {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.containerBtnCombos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn_combos{
+    width: 100%;
+    background-color: #DB5C14;
+    border: none;
+    border-radius: 15px;
+    height: 55px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.btn_combos:hover {
+    background-color: #db783e;
+}
+
+.aBtnCombos {
+    width: 65%;
+}
+.container_News{
+    border: 4px solid #000000;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.centerTitle {
+    text-align: center;
+}
+
+.abobeSendera{
+    width: 40%;
+}
+.radius15{
+    border-radius: 15px;
+}
+.bodyCenter {
+    display: flex;
+
+}
+.subTitle {
+    font-size: 18px;
+}
+.textBody {
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
+}
+
+footer > div> p {
+    padding: 0;
+    margin: 0;
+}
+.iconFooter{
+    width: 20px;
+    margin: 0 4px 0 4px ;
+}
+.face{
+    width: 20px;
+    height: 20px;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+}
+
+.colorTextSepara{
+    color: #DB5C14;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ofertabtn {
+    background-color: #DB4114;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #DB5C14 ;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ofertabtn > p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+ }
+.naranja {
+    background-color:#e27c43;
+}
+.naranjaFuerte {
+    background-color:#DB5C14;
+}
+.rojo {
+    background-color:#DB4114;
+}
+.amarillo {
+    background-color:#D6C000;
+}
+.iconPlus{
+    width: 25px;
+}
+.collapseOferts > p{
+    margin: 0;
+    padding: 0;
+}
+.collapseOferts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noBorde{
+    border: 0;
+}
+.noBorde:hover{
+    background-color: none;
+}
+.noBorde:active{
+    background-color: none;
+}
+.container_cards {
+    display: flex;
+    
+}
+
+.imgTopCard > img{
+    width: 100%;
+    height: 260px;
+}
+.lentes {
+    width: 100px;
+    margin-left: 10px;
+}
+.star {
+    width: 35px;
+    margin: 0 10px 0 10px;
+}
+.t-center {
+    text-align: center;
+}
+.Imgchica {
+    padding: 20px;
+    height: 260px;
+}
+.Imgchica > img{
+    width: 100%;
+    max-height: 260px;
+}
+.cardChica {
+    border-radius: 20px;
+}
+.botellas {
+    max-width: 50px;
+}
+.container_reserva {
+    border: 4px solid #000000;
+    border-radius: 50px;
+    padding: 50px;
+}
+.section {
+    margin-top: 30px;
+}
+
+.section > p{
+    font-size: 24px;
+    font-weight: lighter;
+} 
+.section > input{
+    width: 100%;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+}
+.btnReservar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+.btnReservar > button {
+    background-color: #DB5C14;
+    height: 45px;
+    border-radius: 30px;
+    width: 20%;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.btnReservar > button:hover {
+    background-color: #db783e;
+}
+.local{
+    width: 100%;
+    height: 250px;
+    background-color: #353535;
+    border: 1px solid #000000;
+    color: #ffffff;
+    display: flex;
+    padding: 0;
+    /* font-size: ; */
+}
+.sendera {
+    height: 248px;
+}
+.horarios{
+    text-align: center;
+}
+.horarios > p{
+    font-weight: bold;
+}
+.elementHorario{
+    display: flex;
+    justify-content: space-around;
+}
